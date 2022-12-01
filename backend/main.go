@@ -11,7 +11,6 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-var accountCollection *mongo.Collection = database.OpenCollection(database.Client, "account")
 var entriesCollection *mongo.Collection = database.OpenCollection(database.Client, "entries")
 var transfersCollection *mongo.Collection = database.OpenCollection(database.Client, "transfers")
 
